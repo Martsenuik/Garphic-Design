@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Garphic Design</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--------------------------- header --------------------------->
 
     <header class="header container">
-
       <button class="header-button"></button>
 
       <nav class="navigation">
         <ul class="nav-list">
-            <li class="nav-item">About Me</li>
-            <li class="nav-item">My task</li>
-            <li class="nav-item">Projects</li>
-            <li class="nav-item">Reviews</li>
-            <li class="nav-item">Contacts</li>
+          <li class="nav-item">About Me</li>
+          <li class="nav-item">My task</li>
+          <li class="nav-item">Projects</li>
+          <li class="nav-item">Reviews</li>
+          <li class="nav-item">Contacts</li>
         </ul>
-      </nav>  
+      </nav>
 
-        <button class="">Contact me</button>
+      <button class="">Contact me</button>
 
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="close close-modal">Send</button>
-
-            </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="close close-modal">Send</button>
         </div>
+      </div>
     </header>
 
-    <!--------------------------- main ---------------------------->
-
+    <!--------------------------- main ----------------------->
     <main>
-        <section class="My-Task container">
-            <h3>My Task</h3>
+      <!------------------------- My-Task ---------------------->
 
-            <div class="block1">
-                <p>1</p>
-                <p>Satisfy the client with <br>
-                     quality work.</p>
-                     <svg>
-                        <use src=""></use>
-                     </svg>
-            </div>
-            <div class="block1">
-                <p>2</p>
-                <p>24 hours a day in touch</p>
-                <p>The client always has the <br>
-                   opportunity to get in <br>
-                   touchwith me.</p>
-                   <svg>
-                    <use src=""></use>
-                 </svg>
-            </div>
-            <div class="block1">
-                <p>3</p>
-                <p>I carry out all orders <br>
-                 in the field of design, such <br>
-                 as branding, landing, website <br>
-                 design,logos, banners posters, <br>
-                  business , brochures,illustrations</p>
+      <section class="My-Task container">
+        <h3>My Task</h3>
 
-                <p>Work in the field of graphic design</p>
-                <svg>
-                    <use src=""></use>
-                 </svg>
-            </div>
-        </section>
-        <section class="Projects container">
-            <h2>Projects</h2>
-            <ul>
-               <li>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <p>Business Cards</p>
-                <p>Behance </p>
-               </li>
-               <li>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <p>Website design</p>
-                <p>Behance</p>
-               </li>
-               <li>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <p>Banners</p>
-                <p>Behance</p>
-               </li>
-               <li>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <p>Branding</p>
-                <p>Behance</p>
-               </li>
-            </ul>
-        </section>
-        <section class="Reviews container"></section>
-    </main>    
+        <div class="block1">
+          <p>1</p>
+          <p>
+            Satisfy the client with <br />
+            quality work.
+          </p>
+          <svg>
+            <use src=""></use>
+          </svg>
+        </div>
+        <div class="block1">
+          <p>2</p>
+          <p>24 hours a day in touch</p>
+          <p>
+            The client always has the <br />
+            opportunity to get in <br />
+            touchwith me.
+          </p>
+          <svg>
+            <use src=""></use>
+          </svg>
+        </div>
+        <div class="block1">
+          <p>3</p>
+          <p>
+            I carry out all orders <br />
+            in the field of design, such <br />
+            as branding, landing, website <br />
+            design,logos, banners posters, <br />
+            business , brochures,illustrations
+          </p>
 
-    <!--------------------------- footer ---------------------------->
+          <p>Work in the field of graphic design</p>
+          <svg>
+            <use src=""></use>
+          </svg>
+        </div>
+      </section>
+
+      <!---------------------- Projects ---------------------->
+
+      <section class="Projects container">
+        <h2 class="Projects-title">Projects</h2>
+
+        <ul class="Projects-list">
+          <li class="Projects-card">
+            <div class="Projects-item">
+              <img class="Projects-img" src="" alt="" />
+            </div>
+            <p class="Projects-subtitle">Business Cards</p>
+            <p class="Projects-text">Behance</p>
+          </li>
+
+          <li class="Projects-card">
+            <div class="Projects-item">
+              <img class="Projects-img" src="" alt="" />
+            </div>
+            <p class="Projects-subtitle">Website design</p>
+            <p class="Projects-text">Behance</p>
+          </li>
+
+          <li class="Projects-card">
+            <div class="Projects-item">
+              <img class="Projects-img" src="" alt="" />
+            </div>
+            <p class="Projects-subtitle">Banners</p>
+            <p class="Projects-text">Behance</p>
+          </li>
+
+          <li class="Projects-card">
+            <div class="Projects-item">
+              <img class="Projects-img" src="" alt="" />
+            </div>
+            <p class="Projects-subtitle">Branding</p>
+            <p class="Projects-text">Behance</p>
+          </li>
+        </ul>
+      </section>
+
+      <!--------------------- Reviews ------------------------>
+
+      <section class="Reviews container">
+        <h2 class="Reviews-title">Reviews</h2>
+        <ul class="Reviews-list">
+          <li class="Reviews-item">
+            <img src="" alt="women" />
+            <p class="Reviews-subtitle">Anna Schmidt</p>
+            <hr class="Reviews-line" />
+            <p class="Reviews-subtitle">
+              Fast quality work, good <br />
+              service, 24 hours on <br />
+              call,reasonable prices
+            </p>
+          </li>
+          <li class="Reviews-item">
+            <img src="" alt="women2" />
+            <p class="Reviews-subtitle">Daria Graf</p>
+            <hr class="Reviews-line" />
+            <p class="Reviews-subtitle">
+              Сreative approach, listens to <br />
+              the customer and considers <br />
+              an individual approach
+            </p>
+          </li>
+          <li class="Reviews-item">
+            <img src="" alt="man" />
+            <p class="Reviews-subtitle">Mark Spencer</p>
+            <hr class="Reviews-line" />
+            <p class="Reviews-subtitle">
+              Individual approach, good service, interesting new ideas, fast,
+              high quality
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--------------------------- footer --------------------->
 
     <footer class="footer container"></footer>
 
-
     <script src="./js/modal.js"></script>
-</body>
+  </body>
 </html>
