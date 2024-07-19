@@ -84,7 +84,29 @@
         <ul class="Projects-list">
           <li class="Projects-card">
             <div class="Projects-item">
-              <img class="Projects-img" src="" alt="" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/mobile/business_cards-mobile.png    1x,
+                    ./img/mobile/business_cards-mobile@2x.png 2x
+                  "
+                  media="(min-width: 360px)"
+                />
+                <source
+                  srcset="
+                    ./img/desktop/business_cards.png    1x,
+                    ./img/desktop/business_cards@2x.png 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Projects-img"
+                  src="./img/desktop/business_cards.png"
+                  alt="card"
+                  width="372"
+                  height="230"
+                />
+              </picture>
             </div>
             <p class="Projects-subtitle">Business Cards</p>
             <p class="Projects-text">Behance</p>
@@ -92,7 +114,29 @@
 
           <li class="Projects-card">
             <div class="Projects-item">
-              <img class="Projects-img" src="" alt="" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/mobile/website_design_cards-mobile.png    1x,
+                    ./img/mobile/website_design_cards-mobile@2x.png 2x
+                  "
+                  media="(min-width: 360px)"
+                />
+                <source
+                  srcset="
+                    ./img/desktop/website_design_cards.png    1x,
+                    ./img/desktop/website_design_cards@2x.png 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Projects-img"
+                  src="./img/desktop/website_design_cards.png"
+                  alt="card"
+                  width="372"
+                  height="230"
+                />
+              </picture>
             </div>
             <p class="Projects-subtitle">Website design</p>
             <p class="Projects-text">Behance</p>
@@ -100,7 +144,22 @@
 
           <li class="Projects-card">
             <div class="Projects-item">
-              <img class="Projects-img" src="" alt="" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/banners_cards.png    1x,
+                    ./img/desktop/banners_cards@2x.png 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Projects-img"
+                  src="./img/desktop/banners_cards.png"
+                  alt="card"
+                  width="372"
+                  height="230"
+                />
+              </picture>
             </div>
             <p class="Projects-subtitle">Banners</p>
             <p class="Projects-text">Behance</p>
@@ -108,7 +167,22 @@
 
           <li class="Projects-card">
             <div class="Projects-item">
-              <img class="Projects-img" src="" alt="" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/branding_cards.png    1x,
+                    ./img/desktop/branding_cards@2x.png 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Projects-img"
+                  src="./img/desktop/branding_cards.png"
+                  alt="card"
+                  width="372"
+                  height="230"
+                />
+              </picture>
             </div>
             <p class="Projects-subtitle">Branding</p>
             <p class="Projects-text">Behance</p>
@@ -122,7 +196,29 @@
         <h2 class="Reviews-title">Reviews</h2>
         <ul class="Reviews-list">
           <li class="Reviews-item">
-            <img src="" alt="women" />
+            <picture>
+              <source
+                srcset="
+                  ./img/mobile/women1-mobile.png    1x,
+                  ./img/mobile/women1-mobile@2x.png 2x
+                "
+                media="(min-width: 360px)"
+              />
+              <source
+                srcset="
+                  ./img/desktop/women2.png    1x,
+                  ./img/desktop/women2@2x.png 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <img
+                class="Projects-img"
+                src="./img/desktop/women.png"
+                alt="women"
+                width="290"
+                height="370"
+              />
+            </picture>
             <p class="Reviews-subtitle">Anna Schmidt</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
@@ -132,7 +228,29 @@
             </p>
           </li>
           <li class="Reviews-item">
-            <img src="" alt="women2" />
+            <picture>
+              <source
+                srcset="
+                  ./img/mobile/women2-mobile.png    1x,
+                  ./img/mobile/women2-mobile@2x.png 2x
+                "
+                media="(min-width: 360px)"
+              />
+              <source
+                srcset="
+                  ./img/desktop/women.png    1x,
+                  ./img/desktop/women@2x.png 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <img
+                class="Projects-img"
+                src="./img/desktop/women2.png"
+                alt="women"
+                width="290"
+                height="370"
+              />
+            </picture>
             <p class="Reviews-subtitle">Daria Graf</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
@@ -142,15 +260,51 @@
             </p>
           </li>
           <li class="Reviews-item">
-            <img src="" alt="man" />
+            <picture>
+              <source
+                srcset="./img/desktop/man.png 1x, ./img/desktop/man@2x.png 2x"
+                media="(min-width: 1200px)"
+              />
+              <img
+                class="Projects-img"
+                src="./img/desktop/man.png"
+                alt="man"
+                width="290"
+                height="370"
+              />
+            </picture>
             <p class="Reviews-subtitle">Mark Spencer</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
-              Individual approach, good service, interesting new ideas, fast,
-              high quality
+              Individual approach, <br />
+              good service, <br />
+              interesting new ideas, <br />
+              fast,high quality
             </p>
           </li>
         </ul>
+
+        <div>
+          <h2>
+            Let’s work <br />
+            together on your <br />
+            next Project
+          </h2>
+          <hr />
+          <p>
+            If you want to contact me for an order, click on the button and
+            <br />
+            contact me
+          </p>
+
+          <button class="">Contact me</button>
+
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="close close-modal">Send</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
