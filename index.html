@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Garphic Design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sen:wght@700&family=Syncopate:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--------------------------- header --------------------------->
@@ -34,7 +41,7 @@
     <main>
       <!------------------------- My-Task ---------------------->
 
-      <section class="My-Task container">
+      <section class="my-task container">
         <h3>My Task</h3>
 
         <div class="block1">
@@ -78,7 +85,7 @@
 
       <!---------------------- Projects ---------------------->
 
-      <section class="Projects container">
+      <section class="projects container">
         <h2 class="Projects-title">Projects</h2>
 
         <ul class="Projects-list">
@@ -192,33 +199,10 @@
 
       <!--------------------- Reviews ------------------------>
 
-      <section class="Reviews container">
+      <section class="reviews container">
         <h2 class="Reviews-title">Reviews</h2>
         <ul class="Reviews-list">
           <li class="Reviews-item">
-            <picture>
-              <source
-                srcset="
-                  ./img/mobile/women1-mobile.png    1x,
-                  ./img/mobile/women1-mobile@2x.png 2x
-                "
-                media="(min-width: 360px)"
-              />
-              <source
-                srcset="
-                  ./img/desktop/women2.png    1x,
-                  ./img/desktop/women2@2x.png 2x
-                "
-                media="(min-width: 1200px)"
-              />
-              <img
-                class="Projects-img"
-                src="./img/desktop/women.png"
-                alt="women"
-                width="290"
-                height="370"
-              />
-            </picture>
             <p class="Reviews-subtitle">Anna Schmidt</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
@@ -228,29 +212,6 @@
             </p>
           </li>
           <li class="Reviews-item">
-            <picture>
-              <source
-                srcset="
-                  ./img/mobile/women2-mobile.png    1x,
-                  ./img/mobile/women2-mobile@2x.png 2x
-                "
-                media="(min-width: 360px)"
-              />
-              <source
-                srcset="
-                  ./img/desktop/women.png    1x,
-                  ./img/desktop/women@2x.png 2x
-                "
-                media="(min-width: 1200px)"
-              />
-              <img
-                class="Projects-img"
-                src="./img/desktop/women2.png"
-                alt="women"
-                width="290"
-                height="370"
-              />
-            </picture>
             <p class="Reviews-subtitle">Daria Graf</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
@@ -260,19 +221,6 @@
             </p>
           </li>
           <li class="Reviews-item">
-            <picture>
-              <source
-                srcset="./img/desktop/man.png 1x, ./img/desktop/man@2x.png 2x"
-                media="(min-width: 1200px)"
-              />
-              <img
-                class="Projects-img"
-                src="./img/desktop/man.png"
-                alt="man"
-                width="290"
-                height="370"
-              />
-            </picture>
             <p class="Reviews-subtitle">Mark Spencer</p>
             <hr class="Reviews-line" />
             <p class="Reviews-subtitle">
@@ -310,7 +258,18 @@
 
     <!--------------------------- footer --------------------->
 
-    <footer class="footer container"></footer>
+    <footer class="footer container">
+      <ul>
+        <li>Uliana Usenko</li>
+        <li>
+          design services <br />
+          Main page <br />
+          Terms Of Service
+        </li>
+        <li>E-mail: ulianaysenko@gmail.com</li>
+        <li>+38(067)656-73-95</li>
+      </ul>
+    </footer>
 
     <script src="./js/modal.js"></script>
   </body>
