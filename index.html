@@ -11,28 +11,66 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sen:wght@700&family=Syncopate:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/main.min.css" />
   </head>
   <body>
     <!--------------------------- header --------------------------->
 
     <header class="header container">
-      <button class="header-button"></button>
+      <div class="top-panel">
+        <button class="header-button"></button>
 
-      <nav class="navigation">
-        <ul class="nav-list">
-          <li class="nav-item">About Me</li>
-          <li class="nav-item">My task</li>
-          <li class="nav-item">Projects</li>
-          <li class="nav-item">Reviews</li>
-          <li class="nav-item">Contacts</li>
-        </ul>
-      </nav>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item">About Me</li>
+            <li class="nav-item">My task</li>
+            <li class="nav-item">Projects</li>
+            <li class="nav-item">Reviews</li>
+            <li class="nav-item">Contacts</li>
+          </ul>
+        </nav>
 
-      <button class="open open-modal">Contact me</button>
+        <button class="open modal-open">Contact me</button>
+      </div>
+
+      <h3 class="header-title1">Graphic</h3>
+      <h3 class="header-title2">Design</h3>
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="close close-modal">Send</button>
+          <h3 class="modal-title">Personal information :</h3>
+
+          <form class="modal-list">
+            <label class="modal-item">
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+            </label>
+
+            <label class="modal-item">
+              <input
+                class="modal-input"
+                type="text"
+                name="text"
+                placeholder="Surename"
+              />
+            </label>
+
+            <label class="modal-item">
+              <input
+                class="modal-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+          </form>
+          <div class="box-close-modal">
+            <button class="close close-modal">Send</button>
+          </div>
         </div>
       </div>
     </header>
@@ -244,14 +282,6 @@
             <br />
             contact me
           </p>
-
-          <button class="">Contact me</button>
-
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="close close-modal">Send</button>
-            </div>
-          </div>
         </div>
       </section>
     </main>
