@@ -17,11 +17,33 @@
     <!--------------------------- header --------------------------->
 
     <header class="header container">
-      <div class="backdrop is-hidden" data-modal>
+      <svg class="open-menu">
+        <use href="/img/symbol-defs.svg#modal-menu-open"></use>
+      </svg>
+      <div class="backdrop-menu is-hidden" data-modal>
         <div class="menu">
-          <svg class="open-menu">
-            <use href="/img/symbol-defs.svg#modal-menu-open"></use>
-          </svg>
+          <h2 class="title-menu">Menu</h2>
+
+          <nav class="navigation-menu">
+            <ul class="nav-list-menu">
+              <li class="nav-item-menu">
+                <button class="button-item-menu1">About Me</button>
+              </li>
+              <li class="nav-item-menu">
+                <button class="button-item-menu2">My task</button>
+              </li>
+              <li class="nav-item-menu">
+                <button class="button-item-menu1">Projects</button>
+              </li>
+              <li class="nav-item-menu">
+                <button class="button-item-menu2">Reviews</button>
+              </li>
+              <li class="nav-item-menu">
+                <button class="button-item-menu1">Contacts</button>
+              </li>
+            </ul>
+          </nav>
+
           <button class="close-menu">close</button>
         </div>
       </div>
@@ -39,11 +61,11 @@
           </ul>
         </nav>
 
+        <h3 class="header-title1">Graphic</h3>
+        <h3 class="header-title2">Design</h3>
+
         <button class="open modal-open">Contact me</button>
       </div>
-
-      <h3 class="header-title1">Graphic</h3>
-      <h3 class="header-title2">Design</h3>
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -318,7 +340,7 @@
       </ul>
     </footer>
 
-    <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
