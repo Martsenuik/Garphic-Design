@@ -38,6 +38,7 @@ li,
 img,
 div,
 a,
+hr,
 body,
 html {
   margin: 0;
@@ -64,7 +65,7 @@ body {
 
 .header {
   background-image: url(/img/mobile/header-mobile-bg.png);
-  background-color: #0bf7d7;
+  background-color: #ff0000;
   background-repeat: no-repeat;
   height: 648px;
 }
@@ -270,9 +271,138 @@ body {
   background: #d80808;
 }
 
+@media screen and (min-width: 1200px) {
+  .header {
+    background-image: url(/img/desktop/header-bg.png);
+    background-color: #ff0000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 1090px;
+  }
+  .backdro-menu {
+    display: none;
+  }
+  .open-menu {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .backdrop-menu.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  .top-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+  .header-button {
+    width: 160px;
+    height: 56px;
+    border-radius: 27px;
+    background: #d80808;
+    display: flex;
+    border: none;
+  }
+  .navigation {
+    display: flex;
+  }
+  .nav-list {
+    display: flex;
+    gap: 38px;
+  }
+  .nav-item {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+  }
+  .header-title1 {
+    color: #eee;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    font-family: Syncopate;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+    padding-top: 197px;
+  }
+  .header-title2 {
+    color: #eee;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    font-family: Syncopate;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+    padding-top: 507px;
+    padding-left: 712px;
+  }
+  .modal-open {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 27px;
+    background: #d80808;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-right: 23px;
+    padding-left: 42px;
+    border: none;
+    margin: 0;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modal {
+    width: 295px;
+    height: 468px;
+    border-radius: 24px;
+    background: rgba(49, 0, 0, 0.38);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  .modal-title {
+    color: #e5dede;
+    font-family: Syncopate;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -3.57px;
+  }
+  .close-modal {
+    padding: 71px 15px;
+    border-radius: 27px;
+    background: #d80808;
+  }
+}
 .my-task {
   background-image: url(/img/mobile/my-tsk-mobile-bg.png);
-  background-color: #fffb00;
+  background-color: #ff0000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -377,7 +507,7 @@ body {
 
 .projects {
   background-image: url(/img/mobile/black_bg-mobile.png);
-  background-color: #0bf7d7;
+  background-color: #ff0000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -463,7 +593,7 @@ body {
   background-image: url(/img/mobile/reviews-bg-mobile.png);
   background-color: #ff0202;
   background-repeat: no-repeat;
-  height: 1186px;
+  height: 1886px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -518,11 +648,98 @@ body {
 }
 
 .Reviews-footer {
-  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-image: url(/img/mobile/footer-mobile-bg.png);
   background-color: #ff0000;
   background-repeat: no-repeat;
-  height: 1186px;
+  height: 703px;
   display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+}
+
+.Reviews-footer-title {
+  color: #f3d5d5;
+  -webkit-text-stroke-width: 2;
+  -webkit-text-stroke-color: rgba(73, 7, 7, 0.33);
+  font-family: Syncopate;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 68px;
+}
+
+.Reviews-footer-line {
+  width: 261.056px;
+  height: 5px;
+  background: #000;
+  border: none;
+  margin-top: 15px;
+}
+
+.Reviews-footer-subtitle {
+  color: #e8d6d6;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  padding-bottom: 203px;
+  padding-top: 15px;
+}
+
+.Reviews-father-button {
+  display: flex;
+  justify-content: center;
+}
+
+.Reviews-footer-button {
+  color: #f00;
+  font-size: 19px;
+  font-weight: 900;
+  border-radius: 27px;
+  background: #f4e2e2;
+  padding: 17px 46px;
+  border: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  width: 360px;
+  height: 661px;
+  border-radius: 24px;
+  background: rgba(49, 0, 0, 0.38);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.Reviews-footer-list {
+  display: flex;
+}
+
+.Reviews-footer-img {
+  width: 106px;
+  height: 113px;
 }
 
 .footer {

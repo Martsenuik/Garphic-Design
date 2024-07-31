@@ -60,12 +60,11 @@
             <li class="nav-item">Contacts</li>
           </ul>
         </nav>
-
-        <h3 class="header-title1">Graphic</h3>
-        <h3 class="header-title2">Design</h3>
-
         <button class="open modal-open">Contact me</button>
       </div>
+
+      <h3 class="header-title1">Graphic</h3>
+      <h3 class="header-title2">Design</h3>
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -296,7 +295,7 @@
 
       <!--------------------- Reviews ------------------------>
 
-      <section class="reviews container">
+      <section class="reviews">
         <h2 class="Reviews-title">Reviews</h2>
 
         <ul class="Reviews-list">
@@ -338,12 +337,13 @@
           </h2>
           <hr class="Reviews-footer-line" />
           <p class="Reviews-footer-subtitle">
-            If you want to contact me for an order, click on the button and
-            <br />
-            contact me
+            If you want to contact me for an order, <br />
+            click on the button and contact me
           </p>
 
-          <button class="Reviews-footer-button open-modal">Contact me</button>
+          <div class="Reviews-father-button">
+            <button class="Reviews-footer-button open-modal">Contact me</button>
+          </div>
 
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -382,8 +382,82 @@
               </div>
             </div>
           </div>
+
+          <ul class="Reviews-footer-list">
+            <li class="Reviews-footer-item">
+              <picture>
+                <source
+                  srcset="
+                    ./img/mobile/votsap-mobile.png    1x,
+                    ./img/mobile/votsap-mobile@2x.png 2x
+                  "
+                  media="(min-width: 360px)"
+                />
+                <source
+                  srcset="
+                    ./img/desktop/votsap.png   1x,
+                    ./img/mobile/votsap.png@2x 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Reviews-footer-img"
+                  src="./img/desktop/votsap.png"
+                  alt="votsap"
+                  width="106"
+                  height="113"
+                />
+              </picture>
+            </li>
+            <li class="Reviews-footer-item">
+              <picture>
+                <source
+                  srcset="
+                    ./img/mobile/be-mobile.png    1x,
+                    ./img/mobile/be-mobile@2x.png 2x
+                  "
+                  media="(min-width: 360px)"
+                />
+                <source
+                  srcset="./img/desktop/be.png 1x, ./img/mobile/be.png@2x 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Reviews-footer-img"
+                  src="./img/desktop/man3.jpg"
+                  alt="votsap"
+                  width="106"
+                  height="113"
+                />
+              </picture>
+            </li>
+            <li class="Reviews-footer-item">
+              <picture>
+                <source
+                  srcset="
+                    ./img/mobile/instagram-mobile.png    1x,
+                    ./img/mobile/instagram-mobile@2x.png 2x
+                  "
+                  media="(min-width: 360px)"
+                />
+                <source
+                  srcset="
+                    ./img/desktop/instagram.png   1x,
+                    ./img/mobile/instagram.png@2x 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="Reviews-footer-img"
+                  src="./img/desktop/instagram.png"
+                  alt="votsap"
+                  width="106"
+                  height="113"
+                />
+              </picture>
+            </li>
+          </ul>
         </div>
-        -->
       </section>
     </main>
 
