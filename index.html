@@ -127,13 +127,15 @@
             />
           </div>
           <div class="block2">
+            <div class="my-task-p2">
+              <p class="my-task-text2">24 hours a day in touch</p>
+              <p class="my-task-subtitle2">
+                The client always has the <br />
+                opportunity to get in <br />
+                touchwith me.
+              </p>
+            </div>
             <p class="my-task-number2">2</p>
-            <p class="my-task-text2">24 hours a day in touch</p>
-            <p class="my-task-subtitle2">
-              The client always has the <br />
-              opportunity to get in <br />
-              touchwith me.
-            </p>
             <img
               class="my-task-img2"
               src="/img/desktop/thoughts.png"
@@ -141,16 +143,19 @@
             />
           </div>
           <div class="block3">
-            <p class="my-task-number3">3</p>
-            <p class="my-task-subtitle3">
-              I carry out all orders <br />
-              in the field of design, such <br />
-              as branding, landing, website <br />
-              design,logos class="my-task-svg", banners posters, <br />
-              business , brochures,illustrations
-            </p>
+            <div class="my-task-p3">
+              <p class="my-task-subtitle3">
+                I carry out all orders <br />
+                in the field of design, such <br />
+                as branding, landing, website<br />
+                design,logos, banners posters,<br />
+                business cards, brochures,illustrations
+              </p>
 
-            <p class="my-task-text3">Work in the field of graphic design</p>
+              <p class="my-task-text3">Work in the field of graphic design</p>
+            </div>
+            <p class="my-task-number3">3</p>
+
             <img
               class="my-task-img3"
               src="/img/desktop/computer.png"
@@ -194,6 +199,9 @@
             </div>
             <p class="Projects-subtitle">Business Cards</p>
             <p class="Projects-text">Behance</p>
+            <svg class="Projects-svg">
+              <use href="/img/symbol-defs.svg#arrow"></use>
+            </svg>
           </li>
 
           <li class="Projects-card">
@@ -224,10 +232,13 @@
             </div>
             <p class="Projects-subtitle">Website design</p>
             <p class="Projects-text">Behance</p>
+            <svg class="Projects-svg">
+              <use href="/img/symbol-defs.svg#arrow"></use>
+            </svg>
           </li>
 
-          <li class="Projects-card">
-            <div class="Projects-item">
+          <li class="Projects-card2">
+            <div class="Projects-item2">
               <picture>
                 <source
                   srcset="
@@ -237,7 +248,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Projects-img"
+                  class="Projects-img2"
                   src="./img/desktop/banners_cards.png"
                   alt="card"
                   width="372"
@@ -245,12 +256,15 @@
                 />
               </picture>
             </div>
-            <p class="Projects-subtitle">Banners</p>
-            <p class="Projects-text">Behance</p>
+            <p class="Projects-subtitle2">Banners</p>
+            <p class="Projects-text2">Behance</p>
+            <svg class="Projects-svg2">
+              <use href="/img/symbol-defs.svg#arrow"></use>
+            </svg>
           </li>
 
-          <li class="Projects-card">
-            <div class="Projects-item">
+          <li class="Projects-card2">
+            <div class="Projects-item2">
               <picture>
                 <source
                   srcset="
@@ -260,7 +274,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Projects-img"
+                  class="Projects-img2"
                   src="./img/desktop/branding_cards.png"
                   alt="card"
                   width="372"
@@ -268,39 +282,46 @@
                 />
               </picture>
             </div>
-            <p class="Projects-subtitle">Branding</p>
-            <p class="Projects-text">Behance</p>
+            <p class="Projects-subtitle2">Branding</p>
+            <p class="Projects-text2">Behance</p>
+            <svg class="Projects-svg2">
+              <use href="/img/symbol-defs.svg#arrow"></use>
+            </svg>
           </li>
         </ul>
+        <div class="Projects-father-button">
+          <button class="Projects-button">See more</button>
+        </div>
       </section>
 
       <!--------------------- Reviews ------------------------>
 
       <section class="reviews container">
         <h2 class="Reviews-title">Reviews</h2>
+
         <ul class="Reviews-list">
-          <li class="Reviews-item">
-            <p class="Reviews-subtitle">Anna Schmidt</p>
-            <hr class="Reviews-line" />
-            <p class="Reviews-subtitle">
-              Fast quality work, good <br />
-              service, 24 hours on <br />
-              call,reasonable prices
-            </p>
-          </li>
           <li class="Reviews-item">
             <p class="Reviews-subtitle">Daria Graf</p>
             <hr class="Reviews-line" />
-            <p class="Reviews-subtitle">
-              Сreative approach, listens to <br />
-              the customer and considers <br />
-              an individual approach
+            <p class="Reviews-text">
+              Сreative approach, listens to the <br />
+              customer and considers an <br />
+              individual approach
             </p>
           </li>
           <li class="Reviews-item">
+            <p class="Reviews-subtitle">Anna Schmidt</p>
+            <hr class="Reviews-line" />
+            <p class="Reviews-text">
+              Fast quality work, good service, <br />
+              24 hours on call,reasonable <br />
+              prices
+            </p>
+          </li>
+          <li class="Reviews-item Reviews-item-3">
             <p class="Reviews-subtitle">Mark Spencer</p>
             <hr class="Reviews-line" />
-            <p class="Reviews-subtitle">
+            <p class="Reviews-text">
               Individual approach, <br />
               good service, <br />
               interesting new ideas, <br />
@@ -309,19 +330,60 @@
           </li>
         </ul>
 
-        <div>
-          <h2>
+        <div class="Reviews-footer">
+          <h2 class="Reviews-footer-title">
             Let’s work <br />
             together on your <br />
             next Project
           </h2>
-          <hr />
-          <p>
+          <hr class="Reviews-footer-line" />
+          <p class="Reviews-footer-subtitle">
             If you want to contact me for an order, click on the button and
             <br />
             contact me
           </p>
+
+          <button class="Reviews-footer-button open-modal">Contact me</button>
+
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <h3 class="modal-title">Personal information :</h3>
+
+              <form class="modal-list">
+                <label class="modal-item">
+                  <input
+                    class="modal-input"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                  />
+                </label>
+
+                <label class="modal-item">
+                  <input
+                    class="modal-input"
+                    type="text"
+                    name="text"
+                    placeholder="Surename"
+                  />
+                </label>
+
+                <label class="modal-item">
+                  <input
+                    class="modal-input"
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                  />
+                </label>
+              </form>
+              <div class="box-close-modal">
+                <button class="close close-modal">Send</button>
+              </div>
+            </div>
+          </div>
         </div>
+        -->
       </section>
     </main>
 

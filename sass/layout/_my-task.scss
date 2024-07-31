@@ -1,0 +1,110 @@
+.my-task {
+  background-image: url(/img/mobile/my-tsk-mobile-bg.png);
+  background-color: #fffb00;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 822px;
+}
+
+.my-task-title {
+  color: #f4bdbd;
+  font-family: Syncopate;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.block1 {
+  display: flex;
+}
+
+.my-task-number1 {
+  height: 199.04px;
+  color: #1e0202;
+  font-family: "Trebuchet MS";
+  font-size: 182px;
+  font-weight: 700;
+}
+
+.my-task-subtitle1 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 85px;
+}
+
+.my-task-img1 {
+  display: none;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.my-task-p2 {
+}
+
+.my-task-number2 {
+  height: 159.421px;
+  color: #f0c9c9;
+  font-family: Sen;
+  font-size: 180px;
+  font-weight: 700;
+}
+
+.my-task-text2 {
+  color: #fff9f9;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30.186px;
+}
+
+.my-task-subtitle2 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.my-task-img2 {
+  display: none;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.my-task-p3 {
+}
+
+.my-task-number3 {
+  height: 204.7px;
+  color: #fb0909;
+  font-family: Sen;
+  font-size: 180px;
+  font-weight: 700;
+}
+
+.my-task-subtitle3 {
+  width: 139.723px;
+  height: 56.599px;
+  color: #000;
+  text-align: right;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.my-task-text3 {
+  width: 190.347px;
+  height: 11.32px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.my-task-img3 {
+  display: none;
+}

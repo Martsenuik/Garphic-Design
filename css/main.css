@@ -32,6 +32,12 @@ h3,
 h4,
 h5,
 h6,
+p,
+ul,
+li,
+img,
+div,
+a,
 body,
 html {
   margin: 0;
@@ -44,18 +50,12 @@ a {
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-body {
-  margin: 0;
 }
 
 body {
@@ -186,30 +186,22 @@ body {
 }
 
 .header-title1 {
-  width: 687.082px;
   height: 87.189px;
-  transform: rotate(-0.152deg);
   color: #eee;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
   font-family: Syncopate;
   font-size: 33px;
   font-weight: 700;
-  line-height: 100%;
   letter-spacing: 0.165px;
   padding-top: 113px;
   padding-left: 38px;
 }
 
 .header-title2 {
-  width: 687.082px;
   height: 87.189px;
-  transform: rotate(-0.152deg);
   color: #eee;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
   font-family: Syncopate;
   font-size: 33px;
   font-weight: 700;
-  line-height: 100%;
   letter-spacing: 0.165px;
   padding-top: 54px;
   padding-left: 38px;
@@ -265,8 +257,6 @@ body {
 }
 
 .modal-title {
-  width: 605px;
-  height: 85px;
   color: #e5dede;
   font-family: Syncopate;
   font-size: 34px;
@@ -278,4 +268,263 @@ body {
   padding: 71px 15px;
   border-radius: 27px;
   background: #d80808;
+}
+
+.my-task {
+  background-image: url(/img/mobile/my-tsk-mobile-bg.png);
+  background-color: #fffb00;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 822px;
+}
+
+.my-task-title {
+  color: #f4bdbd;
+  font-family: Syncopate;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.block1 {
+  display: flex;
+}
+
+.my-task-number1 {
+  height: 199.04px;
+  color: #1e0202;
+  font-family: "Trebuchet MS";
+  font-size: 182px;
+  font-weight: 700;
+}
+
+.my-task-subtitle1 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 85px;
+}
+
+.my-task-img1 {
+  display: none;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.my-task-number2 {
+  height: 159.421px;
+  color: #f0c9c9;
+  font-family: Sen;
+  font-size: 180px;
+  font-weight: 700;
+}
+
+.my-task-text2 {
+  color: #fff9f9;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30.186px;
+}
+
+.my-task-subtitle2 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.my-task-img2 {
+  display: none;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.my-task-number3 {
+  height: 204.7px;
+  color: #fb0909;
+  font-family: Sen;
+  font-size: 180px;
+  font-weight: 700;
+}
+
+.my-task-subtitle3 {
+  width: 139.723px;
+  height: 56.599px;
+  color: #000;
+  text-align: right;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.my-task-text3 {
+  width: 190.347px;
+  height: 11.32px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.my-task-img3 {
+  display: none;
+}
+
+.projects {
+  background-image: url(/img/mobile/black_bg-mobile.png);
+  background-color: #0bf7d7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 884px;
+}
+
+.Projects-title {
+  height: 34.169px;
+  color: #e4cfcf;
+  font-family: Syncopate;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -3.465px;
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.Projects-card {
+  margin-bottom: 55px;
+  padding-top: 60px;
+}
+
+.Projects-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 188px;
+  border-radius: 11px;
+  border: 2px solid rgba(29, 28, 28, 0.33);
+  background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
+}
+
+.Projects-img {
+  width: 262px;
+  height: 151px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 7px 5px rgba(24, 2, 2, 0.65);
+}
+
+.Projects-subtitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  padding-top: 7px;
+}
+
+.Projects-text {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  display: inline;
+}
+
+.Projects-svg {
+  width: 122px;
+  height: 18px;
+}
+
+.Projects-card2 {
+  display: none;
+}
+
+.Projects-father-button {
+  display: flex;
+  justify-content: center;
+}
+
+.Projects-button {
+  width: 79px;
+  height: 43.214px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 900;
+  width: 184px;
+  border: none;
+  height: 64.318px;
+  border-radius: 27px;
+  background: #d80808;
+}
+
+.reviews {
+  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-color: #ff0202;
+  background-repeat: no-repeat;
+  height: 1186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Reviews-title {
+  color: #f4bdbd;
+  font-family: Syncopate;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -2.64px;
+  padding-top: 34px;
+  padding-bottom: 343px;
+}
+
+.Reviews-list {
+  display: flex;
+  gap: 378px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Reviews-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 68px;
+}
+
+.Reviews-subtitle {
+  width: 167.237px;
+  height: 22.63px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Reviews-line {
+  width: 190.709px;
+  height: 2px;
+  background-color: #000;
+}
+
+.Reviews-text {
+  height: 65.832px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.Reviews-item-3 {
+  display: none;
+}
+
+.Reviews-footer {
+  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-color: #ff0000;
+  background-repeat: no-repeat;
+  height: 1186px;
+  display: flex;
+}
+
+.footer {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

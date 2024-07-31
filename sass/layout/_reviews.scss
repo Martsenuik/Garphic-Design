@@ -1,0 +1,74 @@
+.reviews {
+  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-color: #ff0202;
+  background-repeat: no-repeat;
+  height: 1186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Reviews-title {
+  color: #f4bdbd;
+  font-family: Syncopate;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -2.64px;
+  padding-top: 34px;
+  padding-bottom: 343px;
+}
+
+.Reviews-list {
+  display: flex;
+  gap: 378px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Reviews-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 68px;
+}
+
+.Reviews-subtitle {
+  width: 167.237px;
+  height: 22.63px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Reviews-line {
+  width: 190.709px;
+  height: 2px;
+  background-color: #000;
+}
+
+.Reviews-text {
+  height: 65.832px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.Reviews-item-3 {
+  display: none;
+}
+
+.Reviews-footer {
+  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-color: #ff0000;
+  background-repeat: no-repeat;
+  height: 1186px;
+  display: flex;
+}
+
+.Reviews-footer-title {
+}
+
+.Reviews-footer-line {
+}
+
+.Reviews-footer-subtitle {
+}
