@@ -16,7 +16,8 @@
   <body>
     <!--------------------------- header --------------------------->
 
-    <header class="header container">
+    <header class="header ">
+      <div class="container">
       <svg class="open-menu">
         <use href="/img/symbol-defs.svg#modal-menu-open"></use>
       </svg>
@@ -66,42 +67,7 @@
       <h3 class="header-title1">Graphic</h3>
       <h3 class="header-title2">Design</h3>
 
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <h3 class="modal-title">Personal information :</h3>
-
-          <form class="modal-list">
-            <label class="modal-item">
-              <input
-                class="modal-input"
-                type="text"
-                name="name"
-                placeholder="Name"
-              />
-            </label>
-
-            <label class="modal-item">
-              <input
-                class="modal-input"
-                type="text"
-                name="text"
-                placeholder="Surename"
-              />
-            </label>
-
-            <label class="modal-item">
-              <input
-                class="modal-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
-            </label>
-          </form>
-          <div class="box-close-modal">
-            <button class="close close-modal">Send</button>
-          </div>
-        </div>
+      
       </div>
     </header>
 
@@ -125,6 +91,7 @@
               alt="heart"
             />
           </div>
+
           <div class="block2">
             <div class="my-task-p2">
               <p class="my-task-text2">24 hours a day in touch</p>
@@ -135,6 +102,7 @@
               </p>
             </div>
             <p class="my-task-number2">2</p>
+
             <img
               class="my-task-img2"
               src="/img/desktop/thoughts.png"
@@ -142,6 +110,7 @@
             />
           </div>
           <div class="block3">
+            <p class="my-task-number3">3</p>
             <div class="my-task-p3">
               <p class="my-task-subtitle3">
                 I carry out all orders <br />
@@ -153,7 +122,6 @@
 
               <p class="my-task-text3">Work in the field of graphic design</p>
             </div>
-            <p class="my-task-number3">3</p>
 
             <img
               class="my-task-img3"
@@ -166,7 +134,8 @@
 
       <!---------------------- Projects ---------------------->
 
-      <section class="projects container">
+      <section class="projects ">
+        <div class="container">
         <h2 class="Projects-title">Projects</h2>
 
         <ul class="Projects-list">
@@ -236,8 +205,8 @@
             </svg>
           </li>
 
-          <li class="Projects-card2">
-            <div class="Projects-item2">
+          <li class="Projects-card Projects-card-desktop">
+            <div class="Projects-item">
               <picture>
                 <source
                   srcset="
@@ -247,7 +216,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Projects-img2"
+                  class="Projects-img"
                   src="./img/desktop/banners_cards.png"
                   alt="card"
                   width="372"
@@ -255,15 +224,15 @@
                 />
               </picture>
             </div>
-            <p class="Projects-subtitle2">Banners</p>
-            <p class="Projects-text2">Behance</p>
-            <svg class="Projects-svg2">
+            <p class="Projects-subtitle">Banners</p>
+            <p class="Projects-text">Behance</p>
+            <svg class="Projects-svg">
               <use href="/img/symbol-defs.svg#arrow"></use>
             </svg>
           </li>
 
-          <li class="Projects-card2">
-            <div class="Projects-item2">
+          <li class="Projects-card Projects-card-desktop">
+            <div class="Projects-item">
               <picture>
                 <source
                   srcset="
@@ -273,7 +242,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Projects-img2"
+                  class="Projects-img"
                   src="./img/desktop/branding_cards.png"
                   alt="card"
                   width="372"
@@ -281,9 +250,9 @@
                 />
               </picture>
             </div>
-            <p class="Projects-subtitle2">Branding</p>
-            <p class="Projects-text2">Behance</p>
-            <svg class="Projects-svg2">
+            <p class="Projects-subtitle">Branding</p>
+            <p class="Projects-text">Behance</p>
+            <svg class="Projects-svg">
               <use href="/img/symbol-defs.svg#arrow"></use>
             </svg>
           </li>
@@ -291,6 +260,7 @@
         <div class="Projects-father-button">
           <button class="Projects-button">See more</button>
         </div>
+      </div>
       </section>
 
       <!--------------------- Reviews ------------------------>
@@ -317,10 +287,12 @@
               prices
             </p>
           </li>
-          <li class="Reviews-item Reviews-item-3">
-            <p class="Reviews-subtitle">Mark Spencer</p>
-            <hr class="Reviews-line" />
-            <p class="Reviews-text">
+          <li class="Reviews-item Reviews-item-desktop">
+            <p class="Reviews-subtitle Reviews-subtitle-desktop">
+              Mark Spencer
+            </p>
+            <hr class="Reviews-line Reviews-line-desktop" />
+            <p class="Reviews-text Reviews-text-desktop">
               Individual approach, <br />
               good service, <br />
               interesting new ideas, <br />
@@ -330,6 +302,8 @@
         </ul>
 
         <div class="Reviews-footer">
+
+
           <h2 class="Reviews-footer-title">
             Let’s work <br />
             together on your <br />
@@ -475,6 +449,45 @@
         <li>+38(067)656-73-95</li>
       </ul>
     </footer>
+<!---------------------- розмітка модалки ----------------------->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <h3 class="modal-title">Personal information :</h3>
+
+        <form class="modal-list">
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+          </label>
+
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="text"
+              name="text"
+              placeholder="Surename"
+            />
+          </label>
+
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+        </form>
+        <div class="box-close-modal">
+          <button class="close close-modal">Send</button>
+        </div>
+      </div>
+    </div>
 
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>

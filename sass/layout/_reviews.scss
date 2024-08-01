@@ -52,10 +52,6 @@
   font-weight: 400;
 }
 
-.Reviews-item-3 {
-  display: none;
-}
-
 .Reviews-footer {
   background-image: url(/img/mobile/footer-mobile-bg.png);
   background-color: #ff0000;
@@ -154,4 +150,171 @@
 .Reviews-footer-img {
   width: 106px;
   height: 113px;
+}
+
+@media screen and (min-width: 1200px) {
+  .reviews {
+    background-image:  url(/img/desktop/reviews-bg.png);
+    background-color: #ff0202;
+    background-repeat: no-repeat;
+    height: 1886px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .Reviews-title {
+    color: #f4bdbd;
+    font-family: Syncopate;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: -2.64px;
+    padding-top: 34px;
+    padding-left: 71px;
+  }
+
+  .Reviews-list {
+    display: flex;
+    gap: 378px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Reviews-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 68px;
+  }
+
+  .Reviews-subtitle {
+    width: 167.237px;
+    height: 22.63px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .Reviews-line {
+    width: 190.709px;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .Reviews-text {
+    height: 65.832px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .Reviews-item-3 {
+    display: none;
+  }
+
+  .Reviews-subtitle-desktop {
+    color: #ffffff;
+  }
+
+  .Reviews-line-desktop {
+    color: #ffffff;
+  }
+
+  .Reviews-text-desktop {
+    color: #ffffff;
+  }
+
+  .Reviews-footer {
+    background-image: url(/img/desktop/Reviews-footer-bg.png);
+    background-repeat: no-repeat;
+    height: 703px;
+    padding-left: 28px;
+  }
+
+  .Reviews-footer-title {
+    color: #F3D5D5;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: rgba(73, 7, 7, 0.33);
+    font-family: Syncopate;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .Reviews-footer-line {
+    width: 558.777px;
+    height: 4px;
+    background: #000;
+    border: none;
+    margin-top: 19px;
+  }
+
+  .Reviews-footer-subtitle {
+    color: #E8D6D6;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    padding-bottom: 44px;
+    padding-top: 10px;
+  }
+
+  .Reviews-father-button {
+    display: flex;
+  }
+
+  .Reviews-footer-button {
+    color: #f00;
+    font-size: 19px;
+    font-weight: 900;
+
+    border-radius: 27px;
+    background: #f4e2e2;
+    padding: 17px 46px;
+    border: none;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .modal {
+    width: 360px;
+    height: 661px;
+    border-radius: 24px;
+    background: rgba(49, 0, 0, 0.38);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  .Reviews-footer-list {
+    display: flex;
+  }
+
+  .Reviews-footer-item {
+  }
+
+  .Reviews-footer-img {
+    width: 106px;
+    height: 113px;
+  }
 }
