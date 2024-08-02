@@ -99,6 +99,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .title-menu {
@@ -224,6 +225,7 @@ body {
   position: absolute;
   top: 279px;
   left: 0;
+  z-index: 1;
 }
 
 .backdrop {
@@ -419,6 +421,7 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .block1 {
@@ -771,16 +774,19 @@ body {
   }
 }
 .reviews {
-  background-image: url(/img/mobile/reviews-bg-mobile.png);
-  background-color: #ff0202;
-  background-repeat: no-repeat;
-  height: 1886px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Reviews-title {
+.reviews-bg {
+  background-image: url(/img/mobile/reviews-bg-mobile.png);
+  background-color: #ff0202;
+  background-repeat: no-repeat;
+  height: 1886px;
+}
+
+.reviews-title {
   color: #f4bdbd;
   font-family: Syncopate;
   font-size: 33px;
@@ -790,20 +796,20 @@ body {
   padding-bottom: 343px;
 }
 
-.Reviews-list {
+.reviews-list {
   display: flex;
   gap: 378px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.Reviews-item {
+.reviews-item {
   display: flex;
   flex-direction: column;
   padding-left: 68px;
 }
 
-.Reviews-subtitle {
+.reviews-subtitle {
   width: 167.237px;
   height: 22.63px;
   color: #000;
@@ -811,20 +817,20 @@ body {
   font-weight: 700;
 }
 
-.Reviews-line {
+.reviews-line {
   width: 190.709px;
   height: 2px;
   background-color: #000;
 }
 
-.Reviews-text {
+.reviews-text {
   height: 65.832px;
   color: #000;
   font-size: 13px;
   font-weight: 400;
 }
 
-.Reviews-footer {
+.reviews-footer {
   background-image: url(/img/mobile/footer-mobile-bg.png);
   background-color: #ff0000;
   background-repeat: no-repeat;
@@ -834,7 +840,7 @@ body {
   padding-left: 28px;
 }
 
-.Reviews-footer-title {
+.reviews-footer-title {
   color: #f3d5d5;
   -webkit-text-stroke-width: 2;
   -webkit-text-stroke-color: rgba(73, 7, 7, 0.33);
@@ -844,7 +850,7 @@ body {
   padding-top: 68px;
 }
 
-.Reviews-footer-line {
+.reviews-footer-line {
   width: 261.056px;
   height: 5px;
   background: #000;
@@ -852,7 +858,7 @@ body {
   margin-top: 15px;
 }
 
-.Reviews-footer-subtitle {
+.reviews-footer-subtitle {
   color: #e8d6d6;
   font-size: 14px;
   font-weight: 400;
@@ -861,12 +867,12 @@ body {
   padding-top: 15px;
 }
 
-.Reviews-father-button {
+.reviews-father-button {
   display: flex;
   justify-content: center;
 }
 
-.Reviews-footer-button {
+.reviews-footer-button {
   color: #f00;
   font-size: 19px;
   font-weight: 900;
@@ -910,11 +916,11 @@ body {
   overflow: hidden;
 }
 
-.Reviews-footer-list {
+.reviews-footer-list {
   display: flex;
 }
 
-.Reviews-footer-img {
+.reviews-footer-img {
   width: 106px;
   height: 113px;
 }
@@ -929,7 +935,7 @@ body {
     flex-direction: column;
     align-items: start;
   }
-  .Reviews-title {
+  .reviews-title {
     color: #f4bdbd;
     font-family: Syncopate;
     font-size: 33px;
@@ -938,54 +944,51 @@ body {
     padding-top: 34px;
     padding-left: 71px;
   }
-  .Reviews-list {
+  .reviews-list {
     display: flex;
     gap: 378px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .Reviews-item {
+  .reviews-item {
     display: flex;
     flex-direction: column;
     padding-left: 68px;
   }
-  .Reviews-subtitle {
+  .reviews-subtitle {
     width: 167.237px;
     height: 22.63px;
     color: #000;
     font-size: 18px;
     font-weight: 700;
   }
-  .Reviews-line {
+  .reviews-line {
     width: 190.709px;
     height: 2px;
     background-color: #000;
   }
-  .Reviews-text {
+  .reviews-text {
     height: 65.832px;
     color: #000;
     font-size: 13px;
     font-weight: 400;
   }
-  .Reviews-item-3 {
-    display: none;
-  }
-  .Reviews-subtitle-desktop {
+  .reviews-subtitle-desktop {
     color: #ffffff;
   }
-  .Reviews-line-desktop {
+  .reviews-line-desktop {
     color: #ffffff;
   }
-  .Reviews-text-desktop {
+  .reviews-text-desktop {
     color: #ffffff;
   }
-  .Reviews-footer {
+  .reviews-footer {
     background-image: url(/img/desktop/Reviews-footer-bg.png);
     background-repeat: no-repeat;
     height: 703px;
     padding-left: 28px;
   }
-  .Reviews-footer-title {
+  .reviews-footer-title {
     color: #F3D5D5;
     -webkit-text-stroke-width: 2;
     -webkit-text-stroke-color: rgba(73, 7, 7, 0.33);
@@ -993,14 +996,14 @@ body {
     font-size: 40px;
     font-weight: 700;
   }
-  .Reviews-footer-line {
+  .reviews-footer-line {
     width: 558.777px;
     height: 4px;
     background: #000;
     border: none;
     margin-top: 19px;
   }
-  .Reviews-footer-subtitle {
+  .reviews-footer-subtitle {
     color: #E8D6D6;
     font-size: 15px;
     font-weight: 400;
@@ -1008,10 +1011,10 @@ body {
     padding-bottom: 44px;
     padding-top: 10px;
   }
-  .Reviews-father-button {
+  .reviews-father-button {
     display: flex;
   }
-  .Reviews-footer-button {
+  .reviews-footer-button {
     color: #f00;
     font-size: 19px;
     font-weight: 900;
@@ -1050,10 +1053,10 @@ body {
   .no-scroll {
     overflow: hidden;
   }
-  .Reviews-footer-list {
+  .reviews-footer-list {
     display: flex;
   }
-  .Reviews-footer-img {
+  .reviews-footer-img {
     width: 106px;
     height: 113px;
   }

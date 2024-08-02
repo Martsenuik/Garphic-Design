@@ -21,7 +21,7 @@
       <svg class="open-menu">
         <use href="/img/symbol-defs.svg#modal-menu-open"></use>
       </svg>
-      <div class="backdrop-menu is-hidden" data-modal>
+      <div class="backdrop-menu is-hidden" data-menu>
         <div class="menu">
           <h2 class="title-menu">Menu</h2>
 
@@ -266,10 +266,11 @@
       <!--------------------- Reviews ------------------------>
 
       <section class="reviews">
-        <h2 class="Reviews-title">Reviews</h2>
+        <div class="reviews-bg">
+        <h2 class="reviews-title">Reviews</h2>
 
-        <ul class="Reviews-list">
-          <li class="Reviews-item">
+        <ul class="reviews-list">
+          <li class="reviews-item">
             <p class="Reviews-subtitle">Daria Graf</p>
             <hr class="Reviews-line" />
             <p class="Reviews-text">
@@ -278,7 +279,7 @@
               individual approach
             </p>
           </li>
-          <li class="Reviews-item">
+          <li class="reviews-item">
             <p class="Reviews-subtitle">Anna Schmidt</p>
             <hr class="Reviews-line" />
             <p class="Reviews-text">
@@ -287,7 +288,7 @@
               prices
             </p>
           </li>
-          <li class="Reviews-item Reviews-item-desktop">
+          <li class="reviews-item Reviews-item-desktop">
             <p class="Reviews-subtitle Reviews-subtitle-desktop">
               Mark Spencer
             </p>
@@ -300,23 +301,22 @@
             </p>
           </li>
         </ul>
+      </div>
+        <div class="reviews-footer">
 
-        <div class="Reviews-footer">
-
-
-          <h2 class="Reviews-footer-title">
+          <h2 class="reviews-footer-title">
             Let’s work <br />
             together on your <br />
             next Project
           </h2>
-          <hr class="Reviews-footer-line" />
-          <p class="Reviews-footer-subtitle">
+          <hr class="reviews-footer-line" />
+          <p class="reviews-footer-subtitle">
             If you want to contact me for an order, <br />
             click on the button and contact me
           </p>
 
-          <div class="Reviews-father-button">
-            <button class="Reviews-footer-button open-modal">Contact me</button>
+          <div class="reviews-father-button">
+            <button class="reviews-footer-button open-modal">Contact me</button>
           </div>
 
           <div class="backdrop is-hidden" data-modal>
@@ -357,8 +357,8 @@
             </div>
           </div>
 
-          <ul class="Reviews-footer-list">
-            <li class="Reviews-footer-item">
+          <ul class="reviews-footer-list">
+            <li class="reviews-footer-item">
               <picture>
                 <source
                   srcset="
@@ -375,7 +375,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Reviews-footer-img"
+                  class="reviews-footer-img"
                   src="./img/desktop/votsap.png"
                   alt="votsap"
                   width="106"
@@ -383,7 +383,7 @@
                 />
               </picture>
             </li>
-            <li class="Reviews-footer-item">
+            <li class="reviews-footer-item">
               <picture>
                 <source
                   srcset="
@@ -397,7 +397,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Reviews-footer-img"
+                  class="reviews-footer-img"
                   src="./img/desktop/man3.jpg"
                   alt="votsap"
                   width="106"
@@ -405,7 +405,7 @@
                 />
               </picture>
             </li>
-            <li class="Reviews-footer-item">
+            <li class="reviews-footer-item">
               <picture>
                 <source
                   srcset="
@@ -422,7 +422,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="Reviews-footer-img"
+                  class="reviews-footer-img"
                   src="./img/desktop/instagram.png"
                   alt="votsap"
                   width="106"
@@ -433,6 +433,7 @@
           </ul>
         </div>
       </section>
+
     </main>
 
     <!--------------------------- footer --------------------->
@@ -450,6 +451,7 @@
       </ul>
     </footer>
 <!---------------------- розмітка модалки ----------------------->
+
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -484,11 +486,11 @@
           </label>
         </form>
         <div class="box-close-modal">
-          <button class="close close-modal">Send</button>
+          <button class="close modal-close">Send</button>
         </div>
       </div>
     </div>
-
+               
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
