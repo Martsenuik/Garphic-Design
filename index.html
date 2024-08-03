@@ -16,58 +16,56 @@
   <body>
     <!--------------------------- header --------------------------->
 
-    <header class="header ">
+    <header class="header">
       <div class="container">
-      <svg class="open-menu">
-        <use href="/img/symbol-defs.svg#modal-menu-open"></use>
-      </svg>
-      <div class="backdrop-menu is-hidden" data-menu>
-        <div class="menu">
-          <h2 class="title-menu">Menu</h2>
+        <svg class="open-menu">
+          <use href="/img/symbol-defs.svg#modal-menu-open"></use>
+        </svg>
+        <div class="backdrop-menu is-hidden" data-menu>
+          <div class="menu">
+            <h2 class="title-menu">Menu</h2>
 
-          <nav class="navigation-menu">
-            <ul class="nav-list-menu">
-              <li class="nav-item-menu">
-                <button class="button-item-menu1">About Me</button>
-              </li>
-              <li class="nav-item-menu">
-                <button class="button-item-menu2">My task</button>
-              </li>
-              <li class="nav-item-menu">
-                <button class="button-item-menu1">Projects</button>
-              </li>
-              <li class="nav-item-menu">
-                <button class="button-item-menu2">Reviews</button>
-              </li>
-              <li class="nav-item-menu">
-                <button class="button-item-menu1">Contacts</button>
-              </li>
+            <nav class="navigation-menu">
+              <ul class="nav-list-menu">
+                <li class="nav-item-menu">
+                  <button class="button-item-menu1">About Me</button>
+                </li>
+                <li class="nav-item-menu">
+                  <button class="button-item-menu2">My task</button>
+                </li>
+                <li class="nav-item-menu">
+                  <button class="button-item-menu1">Projects</button>
+                </li>
+                <li class="nav-item-menu">
+                  <button class="button-item-menu2">Reviews</button>
+                </li>
+                <li class="nav-item-menu">
+                  <button class="button-item-menu1">Contacts</button>
+                </li>
+              </ul>
+            </nav>
+
+            <button class="close-menu">close</button>
+          </div>
+        </div>
+
+        <div class="top-panel">
+          <button class="header-button"></button>
+
+          <nav class="navigation">
+            <ul class="nav-list">
+              <li class="nav-item">About Me</li>
+              <li class="nav-item">My task</li>
+              <li class="nav-item">Projects</li>
+              <li class="nav-item">Reviews</li>
+              <li class="nav-item">Contacts</li>
             </ul>
           </nav>
-
-          <button class="close-menu">close</button>
+          <button class="header-open-button modal-open">Contact me</button>
         </div>
-      </div>
 
-      <div class="top-panel">
-        <button class="header-button"></button>
-
-        <nav class="navigation">
-          <ul class="nav-list">
-            <li class="nav-item">About Me</li>
-            <li class="nav-item">My task</li>
-            <li class="nav-item">Projects</li>
-            <li class="nav-item">Reviews</li>
-            <li class="nav-item">Contacts</li>
-          </ul>
-        </nav>
-        <button class="open modal-open">Contact me</button>
-      </div>
-
-      <h3 class="header-title1">Graphic</h3>
-      <h3 class="header-title2">Design</h3>
-
-      
+        <h3 class="header-title1">Graphic</h3>
+        <h3 class="header-title2">Design</h3>
       </div>
     </header>
 
@@ -110,7 +108,6 @@
             />
           </div>
           <div class="block3">
-            <p class="my-task-number3">3</p>
             <div class="my-task-p3">
               <p class="my-task-subtitle3">
                 I carry out all orders <br />
@@ -122,7 +119,7 @@
 
               <p class="my-task-text3">Work in the field of graphic design</p>
             </div>
-
+            <p class="my-task-number3">3</p>
             <img
               class="my-task-img3"
               src="/img/desktop/computer.png"
@@ -134,180 +131,177 @@
 
       <!---------------------- Projects ---------------------->
 
-      <section class="projects ">
+      <section class="projects">
         <div class="container">
-        <h2 class="Projects-title">Projects</h2>
+          <h2 class="Projects-title">Projects</h2>
 
-        <ul class="Projects-list">
-          <li class="Projects-card">
-            <div class="Projects-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/mobile/business_cards-mobile.png    1x,
-                    ./img/mobile/business_cards-mobile@2x.png 2x
-                  "
-                  media="(min-width: 360px)"
-                />
-                <source
-                  srcset="
-                    ./img/desktop/business_cards.png    1x,
-                    ./img/desktop/business_cards@2x.png 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="Projects-img"
-                  src="./img/desktop/business_cards.png"
-                  alt="card"
-                  width="372"
-                  height="230"
-                />
-              </picture>
-            </div>
-            <p class="Projects-subtitle">Business Cards</p>
-            <p class="Projects-text">Behance</p>
-            <svg class="Projects-svg">
-              <use href="/img/symbol-defs.svg#arrow"></use>
-            </svg>
-          </li>
+          <ul class="Projects-list">
+            <li class="Projects-card">
+              <div class="Projects-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/mobile/business_cards-mobile.png    1x,
+                      ./img/mobile/business_cards-mobile@2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/desktop/business_cards.png    1x,
+                      ./img/desktop/business_cards@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="Projects-img"
+                    src="./img/desktop/business_cards.png"
+                    alt="card"
+                    width="372"
+                    height="230"
+                  />
+                </picture>
+              </div>
+              <p class="Projects-subtitle">Business Cards</p>
+              <p class="Projects-text">Behance</p>
+              <svg class="Projects-svg">
+                <use href="/img/symbol-defs.svg#arrow"></use>
+              </svg>
+            </li>
 
-          <li class="Projects-card">
-            <div class="Projects-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/mobile/website_design_cards-mobile.png    1x,
-                    ./img/mobile/website_design_cards-mobile@2x.png 2x
-                  "
-                  media="(min-width: 360px)"
-                />
-                <source
-                  srcset="
-                    ./img/desktop/website_design_cards.png    1x,
-                    ./img/desktop/website_design_cards@2x.png 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="Projects-img"
-                  src="./img/desktop/website_design_cards.png"
-                  alt="card"
-                  width="372"
-                  height="230"
-                />
-              </picture>
-            </div>
-            <p class="Projects-subtitle">Website design</p>
-            <p class="Projects-text">Behance</p>
-            <svg class="Projects-svg">
-              <use href="/img/symbol-defs.svg#arrow"></use>
-            </svg>
-          </li>
+            <li class="Projects-card">
+              <div class="Projects-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/mobile/website_design_cards-mobile.png    1x,
+                      ./img/mobile/website_design_cards-mobile@2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/desktop/website_design_cards.png    1x,
+                      ./img/desktop/website_design_cards@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="Projects-img"
+                    src="./img/desktop/website_design_cards.png"
+                    alt="card"
+                    width="372"
+                    height="230"
+                  />
+                </picture>
+              </div>
+              <p class="Projects-subtitle">Website design</p>
+              <p class="Projects-text">Behance</p>
+              <svg class="Projects-svg">
+                <use href="/img/symbol-defs.svg#arrow"></use>
+              </svg>
+            </li>
 
-          <li class="Projects-card Projects-card-desktop">
-            <div class="Projects-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/desktop/banners_cards.png    1x,
-                    ./img/desktop/banners_cards@2x.png 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="Projects-img"
-                  src="./img/desktop/banners_cards.png"
-                  alt="card"
-                  width="372"
-                  height="230"
-                />
-              </picture>
-            </div>
-            <p class="Projects-subtitle">Banners</p>
-            <p class="Projects-text">Behance</p>
-            <svg class="Projects-svg">
-              <use href="/img/symbol-defs.svg#arrow"></use>
-            </svg>
-          </li>
+            <li class="Projects-card Projects-card-desktop">
+              <div class="Projects-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/desktop/banners_cards.png    1x,
+                      ./img/desktop/banners_cards@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="Projects-img"
+                    src="./img/desktop/banners_cards.png"
+                    alt="card"
+                    width="372"
+                    height="230"
+                  />
+                </picture>
+              </div>
+              <p class="Projects-subtitle">Banners</p>
+              <p class="Projects-text">Behance</p>
+              <svg class="Projects-svg">
+                <use href="/img/symbol-defs.svg#arrow"></use>
+              </svg>
+            </li>
 
-          <li class="Projects-card Projects-card-desktop">
-            <div class="Projects-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/desktop/branding_cards.png    1x,
-                    ./img/desktop/branding_cards@2x.png 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="Projects-img"
-                  src="./img/desktop/branding_cards.png"
-                  alt="card"
-                  width="372"
-                  height="230"
-                />
-              </picture>
-            </div>
-            <p class="Projects-subtitle">Branding</p>
-            <p class="Projects-text">Behance</p>
-            <svg class="Projects-svg">
-              <use href="/img/symbol-defs.svg#arrow"></use>
-            </svg>
-          </li>
-        </ul>
-        <div class="Projects-father-button">
-          <button class="Projects-button">See more</button>
+            <li class="Projects-card Projects-card-desktop">
+              <div class="Projects-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/desktop/branding_cards.png    1x,
+                      ./img/desktop/branding_cards@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="Projects-img"
+                    src="./img/desktop/branding_cards.png"
+                    alt="card"
+                    width="372"
+                    height="230"
+                  />
+                </picture>
+              </div>
+              <p class="Projects-subtitle">Branding</p>
+              <p class="Projects-text">Behance</p>
+              <svg class="Projects-svg">
+                <use href="/img/symbol-defs.svg#arrow"></use>
+              </svg>
+            </li>
+          </ul>
+          <div class="Projects-father-button">
+            <button class="Projects-button">See more</button>
+          </div>
         </div>
-      </div>
       </section>
 
       <!--------------------- Reviews ------------------------>
 
       <section class="reviews">
         <div class="reviews-bg">
-        <h2 class="reviews-title">Reviews</h2>
+          <h2 class="reviews-title">Reviews</h2>
 
-        <ul class="reviews-list">
-          <li class="reviews-item">
-            <p class="Reviews-subtitle">Daria Graf</p>
-            <hr class="Reviews-line" />
-            <p class="Reviews-text">
-              Сreative approach, listens to the <br />
-              customer and considers an <br />
-              individual approach
-            </p>
-          </li>
-          <li class="reviews-item">
-            <p class="Reviews-subtitle">Anna Schmidt</p>
-            <hr class="Reviews-line" />
-            <p class="Reviews-text">
-              Fast quality work, good service, <br />
-              24 hours on call,reasonable <br />
-              prices
-            </p>
-          </li>
-          <li class="reviews-item Reviews-item-desktop">
-            <p class="Reviews-subtitle Reviews-subtitle-desktop">
-              Mark Spencer
-            </p>
-            <hr class="Reviews-line Reviews-line-desktop" />
-            <p class="Reviews-text Reviews-text-desktop">
-              Individual approach, <br />
-              good service, <br />
-              interesting new ideas, <br />
-              fast,high quality
-            </p>
-          </li>
-        </ul>
-      </div>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <p class="reviews-subtitle">Daria Graf</p>
+              <hr class="reviews-line" />
+              <p class="reviews-text">
+                Сreative approach, listens to the <br />
+                customer and considers an <br />
+                individual approach
+              </p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-subtitle">Anna Schmidt</p>
+              <hr class="reviews-line" />
+              <p class="reviews-text">
+                Fast quality work, good service, <br />
+                24 hours on call,reasonable <br />
+                prices
+              </p>
+            </li>
+            <li class="reviews-item reviews-item-desktop">
+              <p class="reviews-subtitle Reviews-subtitle-desktop">
+                Mark Spencer
+              </p>
+              <hr class="reviews-line Reviews-line-desktop" />
+              <p class="reviews-text Reviews-text-desktop">
+                Individual approach, <br />
+                good service, <br />
+                interesting new ideas, <br />
+                fast,high quality
+              </p>
+            </li>
+          </ul>
+        </div>
         <div class="reviews-footer">
-
           <h2 class="reviews-footer-title">
-            Let’s work <br />
-            together on your <br />
-            next Project
+            Let’s work together on your next Project
           </h2>
           <hr class="reviews-footer-line" />
           <p class="reviews-footer-subtitle">
@@ -316,7 +310,7 @@
           </p>
 
           <div class="reviews-father-button">
-            <button class="reviews-footer-button open-modal">Contact me</button>
+            <button class="reviews-footer-button">Contact me</button>
           </div>
 
           <div class="backdrop is-hidden" data-modal>
@@ -352,7 +346,7 @@
                 </label>
               </form>
               <div class="box-close-modal">
-                <button class="close close-modal">Send</button>
+                <button class="close modal-close">Send</button>
               </div>
             </div>
           </div>
@@ -375,7 +369,7 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="reviews-footer-img"
+                  class="reviews-footer-img votsap"
                   src="./img/desktop/votsap.png"
                   alt="votsap"
                   width="106"
@@ -399,13 +393,13 @@
                 <img
                   class="reviews-footer-img"
                   src="./img/desktop/man3.jpg"
-                  alt="votsap"
-                  width="106"
-                  height="113"
+                  alt="be"
+                  width="185"
+                  height="193"
                 />
               </picture>
             </li>
-            <li class="reviews-footer-item">
+            <li class="reviews-footer-item be">
               <picture>
                 <source
                   srcset="
@@ -422,18 +416,17 @@
                   media="(min-width: 1200px)"
                 />
                 <img
-                  class="reviews-footer-img"
+                  class="reviews-footer-img instagram"
                   src="./img/desktop/instagram.png"
                   alt="votsap"
-                  width="106"
-                  height="113"
+                  width="110"
+                  height="120"
                 />
               </picture>
             </li>
           </ul>
         </div>
       </section>
-
     </main>
 
     <!--------------------------- footer --------------------->
@@ -450,8 +443,7 @@
         <li>+38(067)656-73-95</li>
       </ul>
     </footer>
-<!---------------------- розмітка модалки ----------------------->
-
+    <!---------------------- розмітка модалки ----------------------->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -490,7 +482,7 @@
         </div>
       </div>
     </div>
-               
+
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
