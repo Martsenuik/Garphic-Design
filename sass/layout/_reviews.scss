@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.rewiews-footer-border-img {
+  display: none;
+}
+
 .reviews-title {
   color: #f4bdbd;
   font-family: Syncopate;
@@ -29,9 +33,8 @@
 }
 
 .reviews-item {
-  display: flex;
-  flex-direction: column;
-  padding-left: 68px;
+  padding-top: 14px;
+  padding-left: 32px;
 }
 
 .reviews-item-desktop {
