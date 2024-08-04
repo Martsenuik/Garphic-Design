@@ -267,7 +267,7 @@
           <h2 class="reviews-title">Reviews</h2>
 
           <ul class="reviews-list">
-            <li class="reviews-item">
+            <li class="reviews-item-daria">
               <p class="reviews-subtitle">Daria Graf</p>
               <hr class="reviews-line" />
               <p class="reviews-text">
@@ -276,7 +276,7 @@
                 individual approach
               </p>
             </li>
-            <li class="reviews-item">
+            <li class="reviews-item-anna">
               <p class="reviews-subtitle">Anna Schmidt</p>
               <hr class="reviews-line" />
               <p class="reviews-text">
@@ -285,12 +285,12 @@
                 prices
               </p>
             </li>
-            <li class="reviews-item reviews-item-desktop">
-              <p class="reviews-subtitle Reviews-subtitle-desktop">
+            <li class="reviews-item-mark reviews-item-desktop">
+              <p class="reviews-subtitle reviews-subtitle-desktop">
                 Mark Spencer
               </p>
-              <hr class="reviews-line Reviews-line-desktop" />
-              <p class="reviews-text Reviews-text-desktop">
+              <hr class="reviews-line reviews-line-desktop" />
+              <p class="reviews-text reviews-text-desktop">
                 Individual approach, <br />
                 good service, <br />
                 interesting new ideas, <br />
@@ -298,152 +298,175 @@
               </p>
             </li>
           </ul>
-        </div>
-        <div class="reviews-footer">
-          <h2 class="reviews-footer-title">
-            Let’s work together on your next Project
-          </h2>
-          <hr class="reviews-footer-line" />
-          <p class="reviews-footer-subtitle">
-            If you want to contact me for an order, <br />
-            click on the button and contact me
-          </p>
 
-          <div class="reviews-father-button">
-            <button class="reviews-footer-button">Contact me</button>
-          </div>
-
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <h3 class="modal-title">Personal information :</h3>
-
-              <form class="modal-list">
-                <label class="modal-item">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                  />
-                </label>
-
-                <label class="modal-item">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="text"
-                    placeholder="Surename"
-                  />
-                </label>
-
-                <label class="modal-item">
-                  <input
-                    class="modal-input"
-                    type="email"
-                    name="email"
-                    placeholder="E-mail"
-                  />
-                </label>
-              </form>
-              <div class="box-close-modal">
-                <button class="close modal-close">Send</button>
+          <div class="reviews-footer">
+            <img
+              class="rewiews-footer-border-img"
+              src="/img/desktop/rewiews-boeder-bg.png"
+              alt="black-border"
+            />
+            <div class="reviews-footer-block">
+              <div class="reviews-footer-block-div">
+                <ul class="reviews-footer-block-list">
+                  <li class="reviews-footer-block-item">
+                    <h2 class="reviews-footer-title">
+                      Let’s work together on your next Project
+                    </h2>
+                  </li>
+                  <li class="reviews-footer-block-item">
+                    <hr class="reviews-footer-line" />
+                  </li>
+                  <li class="reviews-footer-block-item">
+                    <p class="reviews-footer-subtitle">
+                      If you want to contact me for an order, click on the
+                      button and contact me
+                    </p>
+                  </li>
+                </ul>
+                <div class="reviews-father-button">
+                  <button class="reviews-footer-button">Contact me</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <ul class="reviews-footer-list">
-            <li class="reviews-footer-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/mobile/votsap-mobile.png    1x,
-                    ./img/mobile/votsap-mobile@2x.png 2x
-                  "
-                  media="(min-width: 360px)"
-                />
-                <source
-                  srcset="
-                    ./img/desktop/votsap.png   1x,
-                    ./img/mobile/votsap.png@2x 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="reviews-footer-img votsap"
-                  src="./img/desktop/votsap.png"
-                  alt="votsap"
-                  width="106"
-                  height="113"
-                />
-              </picture>
-            </li>
-            <li class="reviews-footer-item">
-              <picture>
-                <source
-                  srcset="
-                    ./img/mobile/be-mobile.png    1x,
-                    ./img/mobile/be-mobile@2x.png 2x
-                  "
-                  media="(min-width: 360px)"
-                />
-                <source
-                  srcset="./img/desktop/be.png 1x, ./img/mobile/be.png@2x 2x"
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="reviews-footer-img"
-                  src="./img/desktop/man3.jpg"
-                  alt="be"
-                  width="185"
-                  height="193"
-                />
-              </picture>
-            </li>
-            <li class="reviews-footer-item be">
-              <picture>
-                <source
-                  srcset="
-                    ./img/mobile/instagram-mobile.png    1x,
-                    ./img/mobile/instagram-mobile@2x.png 2x
-                  "
-                  media="(min-width: 360px)"
-                />
-                <source
-                  srcset="
-                    ./img/desktop/instagram.png   1x,
-                    ./img/mobile/instagram.png@2x 2x
-                  "
-                  media="(min-width: 1200px)"
-                />
-                <img
-                  class="reviews-footer-img instagram"
-                  src="./img/desktop/instagram.png"
-                  alt="votsap"
-                  width="110"
-                  height="120"
-                />
-              </picture>
-            </li>
-          </ul>
+            <ul class="reviews-footer-list">
+              <li class="reviews-footer-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/mobile/votsap-mobile.png    1x,
+                      ./img/mobile/votsap-mobile@2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/desktop/votsap.png   1x,
+                      ./img/mobile/votsap.png@2x 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="reviews-footer-img votsap"
+                    src="./img/desktop/votsap.png"
+                    alt="votsap"
+                    width="106"
+                    height="113"
+                  />
+                </picture>
+              </li>
+              <li class="reviews-footer-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/mobile/be-mobile.png    1x,
+                      ./img/mobile/be-mobile@2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <source
+                    srcset="./img/desktop/be.png 1x, ./img/mobile/be.png@2x 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="reviews-footer-img"
+                    src="./img/desktop/man3.jpg"
+                    alt="be"
+                    width="185"
+                    height="193"
+                  />
+                </picture>
+              </li>
+              <li class="reviews-footer-item be">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/mobile/instagram-mobile.png    1x,
+                      ./img/mobile/instagram-mobile@2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/desktop/instagram.png   1x,
+                      ./img/mobile/instagram.png@2x 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="reviews-footer-img instagram"
+                    src="./img/desktop/instagram.png"
+                    alt="votsap"
+                    width="110"
+                    height="120"
+                  />
+                </picture>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
 
     <!--------------------------- footer --------------------->
 
-    <footer class="footer container">
-      <ul>
-        <li>Uliana Usenko</li>
-        <li>
-          design services <br />
-          Main page <br />
-          Terms Of Service
-        </li>
-        <li>E-mail: ulianaysenko@gmail.com</li>
-        <li>+38(067)656-73-95</li>
-      </ul>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item-red">Uliana Usenko</li>
+          <hr class="footeritem-line" />
+          <li class="footer-item">
+            <span class="footer-item-red"> design services </span><br />
+            Main page <br />
+            Terms Of Service
+          </li>
+
+          <li class="footer-item footer-item-text">
+            E-mail: ulianaysenko@gmail.com
+          </li>
+          <li class="footer-item footer-item-p">+38(067)656-73-95</li>
+        </ul>
+      </div>
     </footer>
     <!---------------------- розмітка модалки ----------------------->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <h3 class="modal-title">Personal information :</h3>
+
+        <form class="modal-list">
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+          </label>
+
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="text"
+              name="text"
+              placeholder="Surename"
+            />
+          </label>
+
+          <label class="modal-item">
+            <input
+              class="modal-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+        </form>
+        <div class="box-close-modal">
+          <button class="close modal-close">Send</button>
+        </div>
+      </div>
+    </div>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">

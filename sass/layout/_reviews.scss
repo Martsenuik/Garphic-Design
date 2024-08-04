@@ -224,22 +224,24 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .reviews {
+  .reviews-bg {
     background-image: url(/img/desktop/reviews-bg.png);
-    background-color: #ff0202;
+    background-color: #400704;
     background-repeat: no-repeat;
-    height: 1886px;
+    height: 1761px;
     display: flex;
     flex-direction: column;
     align-items: start;
   }
 
+  .reviews {
+  }
+
   .reviews-title {
     color: #f4bdbd;
     font-family: Syncopate;
-    font-size: 33px;
+    font-size: 57px;
     font-weight: 700;
-    letter-spacing: -2.64px;
     padding-top: 34px;
     padding-left: 71px;
   }
@@ -251,10 +253,23 @@
     justify-content: center;
   }
 
-  .reviews-item {
-    display: flex;
-    flex-direction: column;
-    padding-left: 68px;
+  .reviews-item-daria {
+    position: absolute;
+    left: 340px;
+    top: 3680px;
+  }
+
+  .reviews-item-anna {
+    position: absolute;
+    left: 870px;
+    top: 3680px;
+  }
+
+  .reviews-item-mark {
+    display: inline;
+    position: absolute;
+    top: 4100px;
+    left: 620px;
   }
 
   .reviews-subtitle {
@@ -283,7 +298,7 @@
   }
 
   .reviews-line-desktop {
-    color: #ffffff;
+    background-color: #ffffff;
   }
 
   .reviews-text-desktop {
@@ -291,10 +306,34 @@
   }
 
   .reviews-footer {
-    background-image: url(/img/desktop/Reviews-footer-bg.png);
+    background-image: none;
+    padding-left: 0;
+    height: 0;
+  }
+
+  .reviews-footer-block {
+    background-image: url(/img/desktop/reviews-footer-bg\ .png);
     background-repeat: no-repeat;
-    height: 703px;
-    padding-left: 28px;
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    width: 981px;
+    border-radius: 12px;
+    position: absolute;
+    top: 4469px;
+    left: 210px;
+  }
+
+  .reviews-footer-block-div {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  .rewiews-footer-border-img {
+    position: absolute;
+    top: 4400px;
+    left: 110px;
   }
 
   .reviews-footer-title {
@@ -304,10 +343,11 @@
     font-family: Syncopate;
     font-size: 40px;
     font-weight: 700;
+    width: 581px;
   }
 
   .reviews-footer-line {
-    width: 558.777px;
+    width: 558px;
     height: 4px;
     background: #000;
     border: none;
@@ -315,7 +355,9 @@
   }
 
   .reviews-footer-subtitle {
+    width: 508px;
     color: #e8d6d6;
+    font-family: Roboto;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.9px;
@@ -325,6 +367,7 @@
 
   .reviews-father-button {
     display: flex;
+    padding-left: 104px;
   }
 
   .reviews-footer-button {
@@ -334,7 +377,7 @@
 
     border-radius: 27px;
     background: #f4e2e2;
-    padding: 17px 46px;
+    padding: 22px 48px;
     border: none;
   }
 
@@ -374,7 +417,7 @@
   }
 
   .reviews-footer-list {
-    display: flex;
+    display: none;
   }
 
   .reviews-footer-item {

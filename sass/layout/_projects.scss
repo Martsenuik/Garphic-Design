@@ -28,6 +28,7 @@
 }
 
 .Projects-item {
+  box-shadow: 0px 0px 69px 37px rgba(97, 93, 93, 0.28);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,13 +105,14 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 38px;
-    padding-left: 78px;
+    padding-bottom: 83px;
   }
 
   .Projects-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 221px;
+    justify-content: center;
   }
 
   .Projects-card {
@@ -121,6 +123,7 @@
   }
 
   .Projects-item {
+    box-shadow: 0px 0px 69px 37px rgba(97, 93, 93, 0.28);
     padding: 30px;
     display: flex;
     align-items: center;

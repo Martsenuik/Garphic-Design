@@ -125,7 +125,7 @@
 @media screen and (min-width: 1200px) {
   .my-task {
     background-image: url(/img/desktop/my-task_bg.png);
-    background-color: #ff0000;
+    background-color: #3c0603;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -139,7 +139,6 @@
     font-weight: 700;
     display: inline;
     padding-top: 25px;
-    padding-left: 76px;
   }
 
   .block1 {
@@ -214,8 +213,8 @@
   }
 
   .my-task-p3 {
-    padding-top: 153px;
-    padding-left: 490px;
+    padding-top: 173px;
+    padding-left: 470px;
     position: static;
   }
 
@@ -231,7 +230,7 @@
   }
 
   .my-task-subtitle3 {
-    width: 239px;
+    width: 279px;
     height: 116.781px;
     color: #000;
     font-size: 16px;
@@ -248,7 +247,9 @@
 
   .my-task-img3 {
     display: flex;
-    padding-left: 128px;
     height: 176px;
+    position: absolute;
+    left: 1015px;
+    top: 1660px;
   }
 }

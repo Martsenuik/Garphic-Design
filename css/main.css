@@ -369,6 +369,7 @@ body {
     line-height: 100%;
     letter-spacing: 0.48px;
     padding-top: 197px;
+    padding-left: 0;
   }
   .header-title2 {
     color: #eee;
@@ -565,7 +566,7 @@ body {
 @media screen and (min-width: 1200px) {
   .my-task {
     background-image: url(/img/desktop/my-task_bg.png);
-    background-color: #ff0000;
+    background-color: #3c0603;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -578,7 +579,6 @@ body {
     font-weight: 700;
     display: inline;
     padding-top: 25px;
-    padding-left: 76px;
   }
   .my-task-number1 {
     height: 199.04px;
@@ -639,8 +639,8 @@ body {
     flex-direction: row;
   }
   .my-task-p3 {
-    padding-top: 153px;
-    padding-left: 490px;
+    padding-top: 173px;
+    padding-left: 470px;
     position: static;
   }
   .my-task-number3 {
@@ -654,7 +654,7 @@ body {
     padding-top: 635px;
   }
   .my-task-subtitle3 {
-    width: 239px;
+    width: 279px;
     height: 116.781px;
     color: #000;
     font-size: 16px;
@@ -669,8 +669,10 @@ body {
   }
   .my-task-img3 {
     display: flex;
-    padding-left: 128px;
     height: 176px;
+    position: absolute;
+    left: 1015px;
+    top: 1660px;
   }
 }
 .projects {
@@ -700,6 +702,7 @@ body {
 }
 
 .Projects-item {
+  box-shadow: 0px 0px 69px 37px rgba(97, 93, 93, 0.28);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -774,13 +777,14 @@ body {
     display: flex;
     justify-content: flex-start;
     padding-top: 38px;
-    padding-left: 78px;
+    padding-bottom: 83px;
   }
   .Projects-list {
     display: flex;
     flex-wrap: wrap;
     -moz-column-gap: 221px;
          column-gap: 221px;
+    justify-content: center;
   }
   .Projects-card {
     margin-bottom: 55px;
@@ -789,6 +793,7 @@ body {
     flex-direction: column;
   }
   .Projects-item {
+    box-shadow: 0px 0px 69px 37px rgba(97, 93, 93, 0.28);
     padding: 30px;
     display: flex;
     align-items: center;
@@ -1013,11 +1018,11 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .reviews {
+  .reviews-bg {
     background-image: url(/img/desktop/reviews-bg.png);
-    background-color: #ff0202;
+    background-color: #400704;
     background-repeat: no-repeat;
-    height: 1886px;
+    height: 1761px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -1025,9 +1030,8 @@ body {
   .reviews-title {
     color: #f4bdbd;
     font-family: Syncopate;
-    font-size: 33px;
+    font-size: 57px;
     font-weight: 700;
-    letter-spacing: -2.64px;
     padding-top: 34px;
     padding-left: 71px;
   }
@@ -1037,10 +1041,21 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .reviews-item {
-    display: flex;
-    flex-direction: column;
-    padding-left: 68px;
+  .reviews-item-daria {
+    position: absolute;
+    left: 340px;
+    top: 3680px;
+  }
+  .reviews-item-anna {
+    position: absolute;
+    left: 870px;
+    top: 3680px;
+  }
+  .reviews-item-mark {
+    display: inline;
+    position: absolute;
+    top: 4100px;
+    left: 620px;
   }
   .reviews-subtitle {
     width: 167.237px;
@@ -1064,16 +1079,37 @@ body {
     color: #ffffff;
   }
   .reviews-line-desktop {
-    color: #ffffff;
+    background-color: #ffffff;
   }
   .reviews-text-desktop {
     color: #ffffff;
   }
   .reviews-footer {
-    background-image: url(/img/desktop/Reviews-footer-bg.png);
+    background-image: none;
+    padding-left: 0;
+    height: 0;
+  }
+  .reviews-footer-block {
+    background-image: url(/img/desktop/reviews-footer-bg\ .png);
     background-repeat: no-repeat;
-    height: 703px;
-    padding-left: 28px;
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    width: 981px;
+    border-radius: 12px;
+    position: absolute;
+    top: 4469px;
+    left: 210px;
+  }
+  .reviews-footer-block-div {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  .rewiews-footer-border-img {
+    position: absolute;
+    top: 4400px;
+    left: 110px;
   }
   .reviews-footer-title {
     color: #f3d5d5;
@@ -1082,16 +1118,19 @@ body {
     font-family: Syncopate;
     font-size: 40px;
     font-weight: 700;
+    width: 581px;
   }
   .reviews-footer-line {
-    width: 558.777px;
+    width: 558px;
     height: 4px;
     background: #000;
     border: none;
     margin-top: 19px;
   }
   .reviews-footer-subtitle {
+    width: 508px;
     color: #e8d6d6;
+    font-family: Roboto;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.9px;
@@ -1100,6 +1139,7 @@ body {
   }
   .reviews-father-button {
     display: flex;
+    padding-left: 104px;
   }
   .reviews-footer-button {
     color: #f00;
@@ -1107,7 +1147,7 @@ body {
     font-weight: 900;
     border-radius: 27px;
     background: #f4e2e2;
-    padding: 17px 46px;
+    padding: 22px 48px;
     border: none;
   }
   .backdrop {
@@ -1141,7 +1181,7 @@ body {
     overflow: hidden;
   }
   .reviews-footer-list {
-    display: flex;
+    display: none;
   }
   .reviews-footer-img {
     width: 106px;
@@ -1150,4 +1190,46 @@ body {
 }
 .footer {
   display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    display: flex;
+    background-color: #020202;
+  }
+  .footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-item-red {
+    color: #f00;
+    font-family: Syncopate;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+  }
+  .footeritem-line {
+    border: none;
+    width: 2px;
+    height: 112px;
+    background: #ff2929;
+    margin-left: 188px;
+    margin-right: 17px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+  .footer-item {
+    color: #d8d3d3;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    padding-top: 17px;
+  }
+  .footer-item-text {
+    padding-left: 71px;
+  }
+  .footer-item-p {
+    padding-left: 100px;
+  }
 }/*# sourceMappingURL=main.css.map */
